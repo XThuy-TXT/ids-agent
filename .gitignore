@@ -1,0 +1,26 @@
+# Bảo mật
+.env
+*.pcap
+
+# Log Suricata
+eve.json
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CSDL
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
