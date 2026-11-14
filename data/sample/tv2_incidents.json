@@ -1,0 +1,32 @@
+[
+  {
+    "incident_id": 4,
+    "src_ip": "192.168.56.30",
+    "dst_ip": "192.168.56.20",
+    "start": "2026-11-20T10:00:00",
+    "end": "2026-11-20T10:01:00",
+    "alert_count": 80,
+    "signatures": ["ET WEB_SERVER SQL Injection Attempt"],
+    "dest_ports": [80]
+  },
+  {
+    "incident_id": 5,
+    "src_ip": "192.168.56.31",
+    "dst_ip": "192.168.56.20",
+    "start": "2026-11-20T10:10:00",
+    "end": "2026-11-20T10:20:00",
+    "alert_count": 200,
+    "signatures": ["ET BRUTE_FORCE SSH"],
+    "dest_ports": [22]
+  },
+  {
+    "incident_id": 6,
+    "src_ip": "192.168.56.32",
+    "dst_ip": "192.168.56.20",
+    "start": "2026-11-20T10:30:00",
+    "end": "2026-11-20T10:32:00",
+    "alert_count": 45,
+    "signatures": ["ET POLICY Suspicious User-Agent"],
+    "dest_ports": [443]
+  }
+]
