@@ -24,3 +24,16 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Python environment accidentally committed
+Lib/
+Scripts/
+Include/
+etc/
+share/
+pyvenv.cfg
