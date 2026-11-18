@@ -1,0 +1,74 @@
+[
+  {
+    "incident_id": 1,
+    "attack_type": "port_scan",
+    "attack_technique": "T1046",
+    "severity_hint": "medium",
+    "ambiguous": false,
+    "note": "Luật ET SCAN Nmap Scripting Engine, 340 cảnh báo trên nhiều cổng."
+  },
+  {
+    "incident_id": 2,
+    "attack_type": "port_scan",
+    "attack_technique": "T1046",
+    "severity_hint": "low",
+    "ambiguous": true,
+    "note": "Luật ET SCAN Potential SSH Scan nên theo tiền tố SCAN là port_scan. Chỉ nhắm cổng 22 nên cũng có thể là bước đầu của brute_force."
+  },
+  {
+    "incident_id": 3,
+    "attack_type": "dos",
+    "attack_technique": "T1498",
+    "severity_hint": "high",
+    "ambiguous": false,
+    "note": "Luật ET DOS Possible NTP DDoS Inbound, 500 cảnh báo trong 15 phút."
+  },
+  {
+    "incident_id": 4,
+    "attack_type": "web_attack",
+    "attack_technique": "T1190",
+    "severity_hint": "high",
+    "ambiguous": false,
+    "note": "Luật ET WEB_SERVER SQL Injection Attempt, 80 cảnh báo vào cổng 80 trong 1 phút."
+  },
+  {
+    "incident_id": 5,
+    "attack_type": "brute_force",
+    "attack_technique": "T1110",
+    "severity_hint": "high",
+    "ambiguous": false,
+    "note": "Luật ET BRUTE_FORCE SSH, 200 cảnh báo vào cổng 22 trong 10 phút."
+  },
+  {
+    "incident_id": 6,
+    "attack_type": "other",
+    "attack_technique": null,
+    "severity_hint": "low",
+    "ambiguous": true,
+    "note": "Luật ET POLICY Suspicious User-Agent chỉ báo hành vi lạ, không nói rõ kiểu tấn công. Không có kỹ thuật MITRE cố định."
+  },
+  {
+    "incident_id": 7,
+    "attack_type": "port_scan",
+    "attack_technique": "T1046",
+    "severity_hint": "medium",
+    "ambiguous": true,
+    "note": "Luật ET SCAN Suspicious inbound to MSSQL port 1433 nên theo tiền tố SCAN là port_scan. Dồn vào một cổng cơ sở dữ liệu nên cũng có thể là thử đăng nhập."
+  },
+  {
+    "incident_id": 8,
+    "attack_type": "brute_force",
+    "attack_technique": "T1110",
+    "severity_hint": "medium",
+    "ambiguous": false,
+    "note": "Luật ET BRUTE_FORCE SSH, 55 cảnh báo vào cổng 22 trong 2 phút."
+  },
+  {
+    "incident_id": 9,
+    "attack_type": "web_attack",
+    "attack_technique": "T1190",
+    "severity_hint": "medium",
+    "ambiguous": false,
+    "note": "Luật ET WEB_SERVER SQL Injection Attempt, 12 cảnh báo vào cổng 80 và 443."
+  }
+]
